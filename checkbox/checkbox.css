@@ -20,8 +20,8 @@
 }
 
 .customCheckbox:checked+label::before {
-    background-color: #0b76ef;
-    border-color: #0b76ef;
+    background-color: #0068FF;
+    border-color: #0068FF;
     background-image: url(./check_1.png);
     background-size: 100%;
 }
@@ -30,13 +30,13 @@
 /* focus */
 
 .customCheckbox:focus+label::before {
-    box-shadow: 0 0 0 1px #ffffff, 0 0 0 2px #80bdff;
+    box-shadow: 0 0 0 1px #ffffff, 0 0 0 2px #ACDAFA;
 }
 
 .customCheckbox:focus:not(:checked)+label::before {
-    border-color: #adb5bd;
+    border-color: #adadad;
     background-color: #ffffff;
-    box-shadow: 0 0 0 1px #ffffff, 0 0 0 2px #80bdff;
+    box-shadow: 0 0 0 1px #ffffff, 0 0 0 2px #ACDAFA;
 }
 
 
@@ -44,7 +44,7 @@
 
 .customCheckbox:not(:disabled):not(:checked)+label:hover::before {
     background-color: #ffffff;
-    border-color: #0b76ef;
+    border-color: #0068FF;
 }
 
 
@@ -52,20 +52,22 @@
 
 .customCheckbox:not(:disabled):active:not(:checked)+label::before {
     background-color: #ffffff;
-    border-color: #0b76ef;
+    border-color: #0068FF;
 }
 
 
 /* disabled */
 
 .customCheckbox:disabled:not(:checked)+label::before {
-    background-color: #ffffff;
+    background-color: #d0d7df;
+    border-color: #adadad;
     box-shadow: none;
     color: #d0d7df;
 }
 
 .customCheckbox:disabled:checked+label::before {
-    background-color: #ffffffce;
+    background-color: #d0d7df;
+    border-color: #adadad;
     box-shadow: none;
     background-image: url(./check_2.png);
     background-size: 100%;
