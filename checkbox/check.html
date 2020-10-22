@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <title>Custom checkbox</title>
+    <link rel="stylesheet" href="check.css" type="text/css">
+</head>
+<body>
+    <div class="row">
+        <div class="row__column">
+            <div class="row__text">Not Disabled</div>
+            <div class="row__text">Not Disabled Either</div>
+            <div class="row__text">Disabled</div>
+            <div class="row__text">Disabled Checked</div>
+        </div>
+        <div class="row__column">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="checkbox__icon"></span>
+                Checkbox 1
+            </label>
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="checkbox__icon"></span>
+                Checkbox 2
+            </label>
+            <label class="checkbox checkbox_disabled">
+                <input class="checkbox__input" type="checkbox" disabled>
+                <span class="checkbox__icon checkbox__icon_disabled"></span>
+                Checkbox 3
+            </label>
+            <label class="checkbox checkbox_disabled">
+                <input class="checkbox__input" type="checkbox" disabled checked>
+                <span class="checkbox__icon checkbox__icon_disabled"></span>
+                Checkbox 4
+            </label>
+        </div>
+    </div>
+</body>
+</html>
