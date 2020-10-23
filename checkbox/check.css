@@ -52,7 +52,7 @@
     box-shadow: 0 0 0 1px #ffffff, 0 0 0 2px #ACDAFA;
 }
 
-.checkbox:hover:not(:disabled) .checkbox__icon::before {
+.checkbox:hover:not(._disabled) .checkbox__icon::before {
     border-color: #0068FF;
 }
 
